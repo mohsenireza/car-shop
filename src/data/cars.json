@@ -1,0 +1,73 @@
+{
+  "types": [
+    {
+      "name": "Electrical",
+      "parts": [
+        {
+          "name": "BEV",
+          "cars": [
+            {
+              "name": "Hyundai IONIQ Electric",
+              "image": "https://ev-database.org/img/auto/Hyundai_IONIQ_Electric_2020/Hyundai_IONIQ_Electric_2020-01@2x.jpg"
+            }
+          ]
+        },
+        {
+          "name": "FCEV",
+          "cars": [
+            {
+              "name": "Honda FCX Clarity",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Osaka_Motor_Show_2015_%28202%29_-_Honda_CLARITY_FUEL_CELL.JPG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 wheels",
+      "parts": [
+        {
+          "name": "Segway",
+          "cars": [
+            {
+              "name": "Ninebot Kickscooter",
+              "image": "https://cdn.webshopapp.com/shops/267350/files/406430478/650x650x2/segway-ninebot-kickscooter-max-g30e-ii.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Self-balancing scooter",
+          "cars": [
+            {
+              "name": "Samsung Hoverboard",
+              "image": "https://www.backmarket.nl/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/1544191238.64.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "parts": [
+        {
+          "name": "Supercar",
+          "cars": [
+            {
+              "name": "McLaren F1",
+              "image": "https://robbreport.com/wp-content/uploads/2019/12/6092563g.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Hypercar",
+          "cars": [
+            {
+              "name": "Ferrari LaFerrari",
+              "image": "https://media.autoexpress.co.uk/image/private/s--tC0M4vXB--/f_auto,t_primary-image-desktop@1/v1562245752/autoexpress/2018/01/8_laferrari.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
