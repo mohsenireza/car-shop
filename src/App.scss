@@ -1,0 +1,12 @@
+.carShop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  .carShop__selectBox {
+    margin-bottom: 1rem;
+    &:last-of-type {
+      margin-bottom: 5rem;
+    }
+  }
+}

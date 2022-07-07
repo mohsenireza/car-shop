@@ -4,7 +4,7 @@
       "name": "Electrical",
       "parts": [
         {
-          "name": "BEV",
+          "name": "Battery Electric Vehicle",
           "cars": [
             {
               "name": "Hyundai IONIQ Electric",
@@ -13,7 +13,7 @@
           ]
         },
         {
-          "name": "FCEV",
+          "name": "Fuel Cell Electric Vehicle",
           "cars": [
             {
               "name": "Honda FCX Clarity",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "2 wheels",
+      "name": "2 Wheels",
       "parts": [
         {
           "name": "Segway",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "name": "Self-balancing scooter",
+          "name": "Self Balancing Scooter",
           "cars": [
             {
               "name": "Samsung Hoverboard",
