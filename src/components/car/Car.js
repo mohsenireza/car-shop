@@ -5,8 +5,8 @@ import "./Car.scss";
 const Car = ({ name, image }) => {
   return (
     <article className="car">
-      <img className="car__image" src={image} />
-      <span className="car__name">{name}</span>
+      <img className="car__image" src={image} alt={name} />
+      <h3 className="car__name">{name}</h3>
     </article>
   );
 };
