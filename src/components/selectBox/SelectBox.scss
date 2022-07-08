@@ -11,6 +11,9 @@
     margin-right: 0.8rem;
     cursor: pointer;
     transition: 0.3s;
+    @media (max-width: 768px) {
+      font-size: 0.6rem;
+    }
     &:hover {
       background-color: $firstLight-color;
     }
