@@ -1,0 +1,73 @@
+{
+  "types": [
+    {
+      "name": "Electrical",
+      "parts": [
+        {
+          "name": "Battery Electric Vehicle",
+          "cars": [
+            {
+              "name": "Hyundai IONIQ Electric",
+              "image": "https://platform.cstatic-images.com/medium/in/v2/stock_photos/ac74eafd-a281-4522-9c8e-2f8e403923f3/f4f82dae-6c35-4af0-b22a-332ae9610963.png"
+            }
+          ]
+        },
+        {
+          "name": "Fuel Cell Electric Vehicle",
+          "cars": [
+            {
+              "name": "Honda FCX Clarity",
+              "image": "https://i.pcmag.com/imagery/articles/0673MyOXCNo55FhpFb0c5pk-3..v1569492169.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 Wheels",
+      "parts": [
+        {
+          "name": "Segway",
+          "cars": [
+            {
+              "name": "Ninebot Kickscooter",
+              "image": "https://cdn.webshopapp.com/shops/267350/files/406430478/650x650x2/segway-ninebot-kickscooter-max-g30e-ii.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Self Balancing Scooter",
+          "cars": [
+            {
+              "name": "Samsung Hoverboard",
+              "image": "https://www.backmarket.nl/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/1544191238.64.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "parts": [
+        {
+          "name": "Supercar",
+          "cars": [
+            {
+              "name": "McLaren F1",
+              "image": "https://p.turbosquid.com/ts-thumb/Yn/6chId7/Wv/01/png/1647873919/600x600/turn_fit_q87/12ea81c3b3e17708c61e93c088adf49a69103002/01-1.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Hypercar",
+          "cars": [
+            {
+              "name": "Ferrari LaFerrari",
+              "image": "https://www.ccarprice.com/products/Ferrari_LaFerrari_2021.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import "./App.scss";
+import data from "./data/data.json";
+import { SelectBox, Car } from "./components";
+
+const App = () => {
+  // selectedType and selectedPart keep track of selected type and part
+  const [selectedType, setSelectedType] = useState(null);
+  const [selectedPart, setSelectedPart] = useState(null);
+
+  // Get all available types to render in the UI
+  const types = data.types.map((type) => type.name);
+
+  // Get all parts of the selected type to render in the UI
+  const selectedTypeObject = data.types.find(
+    (type) => type.name === selectedType
+  );
+  const parts = selectedType
+    ? selectedTypeObject.parts.map((part) => part.name)
+    : [];
+
+  // Get cars based on the selected type and the selected part to render in the UI
+  const cars =
+    selectedType && selectedPart
+      ? selectedTypeObject.parts.find((part) => part.name === selectedPart).cars
+      : [];
+
+  // When a type gets clicked, then selectedType state gets updated and selectedPart state gets reset
+  const handleTypeClick = (type) => {
+    setSelectedType(type);
+    setSelectedPart(null);
+  };
+
+  // When a part gets clicked, then selectedPart state gets updated
+  const handlePartClick = (part) => {
+    setSelectedPart(part);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="carShop">
+      <SelectBox
+        items={types}
+        value={selectedType}
+        onClick={handleTypeClick}
+        className="carShop__selectBox"
+      />
+      <SelectBox
+        items={parts}
+        value={selectedPart}
+        onClick={handlePartClick}
+        className="carShop__selectBox"
+      />
+      {cars.map((car) => (
+        <Car key={car.name} name={car.name} image={car.image} />
+      ))}
     </div>
   );
-}
+};
 
 export default App;
