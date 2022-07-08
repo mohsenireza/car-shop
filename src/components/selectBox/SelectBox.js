@@ -9,7 +9,7 @@ const SelectBox = ({ items, value, onClick, className }) => {
   };
 
   return (
-    <div className={`selectBox ${className}`}>
+    <div data-testid="selectBox" className={`selectBox ${className}`}>
       {items.map((item) => (
         <button
           key={item}
