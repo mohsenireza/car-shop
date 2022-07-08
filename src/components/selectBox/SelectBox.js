@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./SelectBox.scss";
 
 const SelectBox = ({ items, value, onClick, className }) => {
+  // When an item gets clicked, then handleClick will run
   const handleClick = (item) => {
     onClick(item);
   };

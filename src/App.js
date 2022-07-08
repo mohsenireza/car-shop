@@ -20,19 +20,19 @@ const App = () => {
     ? selectedTypeObject.parts.map((part) => part.name)
     : [];
 
-  // Get cars based on the selected type and part to render in the UI
+  // Get cars based on the selected type and the selected part to render in the UI
   const cars =
     selectedType && selectedPart
       ? selectedTypeObject.parts.find((part) => part.name === selectedPart).cars
       : [];
 
-  // When a type gets clicked, then selectedType in state gets updated and selectedPart in state gets reset
+  // When a type gets clicked, then selectedType state gets updated and selectedPart state gets reset
   const handleTypeClick = (type) => {
     setSelectedType(type);
     setSelectedPart(null);
   };
 
-  // When a part gets clicked, then selectedPart in state gets updated
+  // When a part gets clicked, then selectedPart state gets updated
   const handlePartClick = (part) => {
     setSelectedPart(part);
   };
