@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-
 import "./SelectBox.scss";
 
 const SelectBox = ({ items, value, onClick, className }) => {
