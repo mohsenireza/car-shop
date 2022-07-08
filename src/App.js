@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import "./App.scss";
 import data from "./data/data.json";
 import { SelectBox, Car } from "./components";
