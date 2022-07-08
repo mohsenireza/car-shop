@@ -1,19 +1,21 @@
+@import "../../styles/variables.scss";
+
 .selectBox {
   .selectBox__item {
-    background-color: #fff;
+    background-color: $white-color;
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border: 0 none;
     border-radius: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: $firstDarkColor 0px 4px 12px;
     margin-right: 0.8rem;
     cursor: pointer;
     transition: 0.3s;
     &:hover {
-      background-color: #eee;
+      background-color: $firstLight-color;
     }
     &.-active {
-      background-color: #ffcccb;
+      background-color: $primary-color;
     }
   }
 }
